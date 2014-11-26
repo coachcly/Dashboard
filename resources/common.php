@@ -8,18 +8,7 @@
 
 
 /* DB2 connection details */
-$pf_db2SystemName = '10.170.2.53';
-$pf_db2UserID = 'cyoung';
-$pf_db2Password = 'cyoung';
-
-function xl_db2_connect($options)
-{
-    $conn = db2_connect($GLOBALS['pf_db2SystemName'],
-        $GLOBALS['pf_db2UserID'],
-        $GLOBALS['pf_db2Password'],
-        $options);
-    return $conn;
-}
+require('x001_functions.php');
 
 $options = array('i5_naming' => DB2_I5_NAMING_ON);
 

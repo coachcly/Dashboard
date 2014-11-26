@@ -1,0 +1,99 @@
+body {
+	background-color: #FFFFFF;
+	font-size: 12px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	background-image: url(../images/Background.jpg);
+}
+td {
+	font-size: 12px;
+}
+input, textarea, select{
+	font-size: 10pt;
+}
+a {
+	font-weight: bold;
+	color: #990000;
+	text-decoration : none;
+}
+a.light {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration : none;
+}
+a:hover {  
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline overline
+}
+.chead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #CCCC99;
+	padding: 4px;
+}
+.ercode {
+	font-weight: bold;
+	color: #FF0000;
+}
+.menulist {
+	border-bottom-style: none;
+	padding: 4px;
+}
+.inputhead {
+	font-weight: bold;
+}
+.tablelist {
+	border-bottom-width: 2px;
+	border-bottom-color: #E6E6D9;
+	padding: 4px;
+	border-bottom-style: solid;
+}
+.tablelistr {
+	border-bottom-width: 2px;
+	border-bottom-color: #E6E6D9;
+	padding: 4px;
+	border-bottom-style: solid;
+	border-right-width: 2px;
+	border-right-color: #E6E6D9;
+	padding: 4px;
+	border-right-style: solid;	
+}
+.tableinfo {
+	padding: 5px;
+}
+table.tables {
+	border : 1px solid #CCCC99;
+	background : #FFFFFF;
+	width : 94%;
+	margin-left : 3%;
+	margin-right : 3%;
+	border-collapse : collapse;
+}
+tablesPix {
+
+	border : 1px solid #CCCC99;
+	background : #FFFFFF;
+	width : 94%;
+	margin-left : 3%;
+	margin-right : 3%;
+	border-collapse : collapse;
+}
+.tablesPix {
+
+	border : 1px solid #CCCC99;
+	background : #FFFFFF;
+	margin-left : 3%;
+	margin-right : 3%;
+	border-collapse : collapse;
+}
+.tableTabs {
+	background : #FFFFFF;
+	border-collapse : collapse;
+	border-top: none;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>Drop Down Menu</title>
+    <style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+    </style>
+</head>
+<body>
+<div id="all">
+
+<h1>Drop Down Menu</h1>
+
+<style type="text/css">
+/* menu styles */
+#drpdwn
+{	margin: 0;
+	padding: 0}
+
+	#drpdwn li
+	{	float: left;
+		list-style: none;
+		text-align: center;
+		font: 13px Tahoma, Arial}
+
+	#drpdwn li a
+	{	display: block;
+		background: #000099;
+		padding: 5px 12px;
+		text-decoration: none;
+		border-right: 1px solid white;
+		width: 70px;
+		color: #EAFFED;
+		white-space: nowrap}
+
+	#drpdwn li a:hover
+	{	background: #3366FF}
+		
+		#drpdwn li ul
+		{	margin: 0;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			text-align: left;
+			border-top: 1px solid white}
+		
+			#drpdwn li ul li
+			{	float: none;
+				display: inline}
+			
+			#drpdwn li ul li a
+			{	width: auto;
+				background: #CCCCCC;
+				color: #000000}
+			
+			#drpdwn li ul li a:hover
+			{	background: #999999}
+</style>
+
+<script src="jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function drpdwn_open()
+{	drpdwn_canceltimer();
+	drpdwn_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function drpdwn_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function drpdwn_timer()
+{	closetimer = window.setTimeout(drpdwn_close, timeout);}
+
+function drpdwn_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#drpdwn > li').bind('mouseover', drpdwn_open);
+	$('#drpdwn > li').bind('mouseout',  drpdwn_timer);});
+
+document.onclick = drpdwn_close;
+</script>
+
+<table width="100%" border="0">
+  <tr>
+    <td width="100%" valign="bottom" bgcolor="#000099">
+<ul id="drpdwn">
+	<li><a href="#" title="&#10;User:   Ernie &#10;&#10;View:   View Only Errors &#10;&#10;Auto Refresh:   1 Minute&#10; ">Home</a></li>
+	<li><a href="#">Views</a>
+	  <ul>
+	    <li><a href="#"><img src="blank.gif" border="0"> View All</a></li>
+		  <li><a href="#"><img src="correct.gif" border="0"> View Only Errors</a></li>
+		  <li><a href="#"><img src="blank.gif" border="0"> View MIMIX</a></li>
+		  <li><a href="#"><img src="blank.gif" border="0"> View MIMIX Errors</a></li>
+      </ul>
+    </li>
+	<li><a href="#">Auto Refresh</a>
+	  <ul>
+	    <li><a href="#"><img src="blank.gif" border="0">&nbsp;&nbsp;&nbsp;N/A</a></li>
+	    <li><a href="#"><img src="correct.gif" border="0"> 1 Minute</a></li>
+	    <li><a href="#"><img src="blank.gif" border="0"> 5 Minutes</a></li>
+	    <li><a href="#"><img src="blank.gif" border="0"> 10 Minutes</a></li>
+	    <li><a href="#"><img src="blank.gif" border="0"> 15 Minutes</a></li>
+	    <li><a href="#"><img src="blank.gif" border="0"> 30 Minutes</a></li>
+	    <li><a href="#"><img src="blank.gif" border="0"> 60 Minutes</a></li>
+      </ul>
+    </li>
+	<li><a href="#">Groups</a>
+	  <ul>
+	    <li><a href="#">Group By</a></li>
+		  <li><a href="#">Add a Group</a></li>
+		  <li><a href="#">Work with Groups</a></li>
+      </ul>
+    </li>
+	<li><a href="#">Users</a>
+		<ul>
+			<li><a href="#">Add a User</a></li>
+			<li><a href="#">Work with Users</a></li>
+			<li><a href="#">View Usage</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Reports</a>
+		<ul>
+			<li><a href="#">Report 1</a></li>
+			<li><a href="#">Report 2</a></li>
+			<li><a href="#">Report 3</a></li>
+			<li><a href="#">Report 4</a></li>
+			<li><a href="#">Report 5</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Graph</a></li>
+	<li><a href="#">Help</a></li>
+	<li><a href="#">Log Out</a></li>
+</ul>
+
+</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p><span class="style1">This is not working, just wanted to show everyone.<br />
+  I think this is the direction we need to take for Dashboard navigation.</span></p>
+<p>Hold the cursor over &quot;Home&quot; and you will see the current settings.</p>
+<p>What do you think?</p>
+<p>Ernie<br>
+</p>
+</div>
+
+
+</body>
+</html>

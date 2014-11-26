@@ -1,0 +1,181 @@
+body, h1-h6, table, tr, td, input, submit, button, textarea,select  {font-family: Arial, Helvetica, sans-serif;}  
+body {
+	margin-top: 0px; 
+	margin-left: 0px; 
+	margin-right: 0px; 
+	background-color: #f4faff;
+}
+body, table, tr, td { font-size:10px;}
+a img {
+	border: none; 
+}
+
+td.actions{ white-space: nowrap; }
+
+#pagetitle{padding-top:30px; padding-bottom: 10px; margin-bottom: 10px; font-size:20px; font-family: Georgia, "Times New Roman"; color: black;}
+#pagetitle.pagetitle{margin-bottom: 0px; background: url(../images/pagelogo.gif) #B3DEFF no-repeat left; padding-left: 70px; }
+div#pagetitleborder{background: url(../images/shadow.gif) repeat-x left;height: 20px; margin-bottom: 10px; }
+
+
+#headline {
+    border: 0px; 
+    background-color: #b3deff;
+}
+#logo {
+	float: left;
+	margin-left: 10px; 
+	width:60px; height:60px;
+	background-image: url(../images/pagelogo.gif);
+	background-position: left;
+} 
+#title{ padding-top:30px; padding-bottom: 10px; 
+	font-family: Georgia, "Times New Roman"; 
+	font-size: 20px;
+	font-weight:100;
+	color:#000000;
+	}
+#divider { height: 20px; width: 100%; background-color: #84adcd; background-image: url(../images/shadow.gif); background-repeat: repeat-x; margin-bottom: 10px; }
+#navtop { margin-bottom: 10px; }
+#navbottom { margin-top: 10px; }
+
+
+#contents { margin-left: 5px; margin-right: 5px; }
+#contents td.text { font-weight: normal; }
+#contents td.label { font-weight: normal; }
+#contents td.alpha {text-align: left;}
+#contents td.numeric, #contents td.right   { text-align: right;}
+#contents table { border-collapse: collapse; border: 1px solid #3c6a8d;  }
+#contents table.mainlist td, #contents table.mainlist th { border:  1px solid #84ADCD;  }
+#contents table.mainlist a { 	color: black; }
+#contents table.mainlist td.htext, #contents table.mainlist  th { color: black; height: 40px; font-size: 11px; font-weight: bold; text-align: center; background-color: #a9cce8; }
+#contents table.mainlist tr { color: black; vertical-align: top; }	
+#contents table.mainlist tr.altcol1 {background-color: #ffffff;}
+#contents table.mainlist tr.altcol2 { background-color:#fff8ee;}
+
+#contents table.keys, #contents table.keys td { border: none; }
+#contents table.mainlist table.actions, #contents table.mainlist table.actions td { border: none; }
+
+
+.subhdg {
+border-top: 4px solid #ff9900;
+border-bottom:  1px solid #84ADCD;
+border-left: 1px solid #84ADCD;
+border-right: 1px solid #84ADCD;
+background-color:#a9cce8;
+margin: 0px; 
+padding: 0px; 
+}
+
+.subtext { text-align: right; padding-bottom: 5px; background-color:#a9cce8; border-top: 1px solid #84ADCD;} 
+.totaltext {
+border: 1px solid #ff9900;
+background-color:#FFFFFF;
+}
+
+.searchbox {font-size: 10px; color:#666666; }
+
+.breakhead { margin-top: 5px; color: #000000; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+} 
+
+#listtopcontrol {
+	margin-bottom: 10px; 
+	margin-left: 0px;
+	text-align: left;
+	width: 300px;
+	position: relative;  left: -22px;
+}
+
+#listbottomcontrol {
+	margin-top: 10px; 
+	margin-left: 0px;
+	text-align: left;
+	width: 300px;
+	position: relative;  left: -22px;
+}
+#listtopcontrol, #listbottomcontrol {
+	 text-align: center;
+}
+
+a.prevlink, a.nextlink, a.addlink { color:black; }
+a.prevlink {
+	background-image: url(../images/arrow_left.gif); 
+	background-repeat: no-repeat;
+	height: 15px; 
+	padding-left: 20px; 
+	margin-right: 10px; 	
+}
+a.prevlink:hover  {
+	background-image: url(../images/arrow_left_hover.gif); 
+		
+}
+
+a.nextlink {
+	background-image: url(../images/arrow_right.gif); 
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 15px; 
+	padding-right: 20px; 
+	margin-left: 10px;
+	
+}
+a.nextlink:hover  {
+	background-image: url(../images/arrow_right_hover.gif); 
+		
+}
+a.addlink {
+	background-image: url(../images/add.gif); 
+	background-repeat: no-repeat;
+	height: 15px; 
+	padding-left: 20px; 
+	margin-left: 5px;
+	margin-right: 5px; 
+	
+}
+a.addlink:hover  {
+	background-image: url(../images/add_hover.gif); 
+		
+}
+
+.nondisp {
+	 visibility: hidden; 
+}
+input, textarea, button {
+border: #26a solid 1px;
+text-indent: 2px;
+}
+
+
+input, textarea, select, button {
+	 font-size: 11px;
+}
+
+input.disabled {
+	border: none; 
+}
+
+/* Turn off list bullets */
+ul.mktree  li { list-style: none; } 
+/* Control how "spaced out" the tree is */
+ul.mktree, ul.mktree ul , ul.mktree li { margin-left:10px; padding:0px; }
+/* Provide space for our own "bullet" inside the LI */
+ul.mktree  li           .bullet { padding-left: 15px; }
+/* Show "bullets" in the links, depending on the class of the LI that the link's in */
+ul.mktree  li.liOpen    .bullet { cursor: pointer; background: url(../images/minus.gif)  center left no-repeat; }
+ul.mktree  li.liClosed  .bullet { cursor: pointer; background: url(../images/plus.gif)   center left no-repeat; }
+ul.mktree  li.liBullet  .bullet { cursor: default; background: none; }
+/* Sublists are visible or not based on class of parent LI */
+ul.mktree  li.liOpen    ul { display: block; }
+ul.mktree  li.liClosed  ul { display: none; }
+/* Format menu items differently depending on what level of the tree they are in */
+/* Change all to 12pt otherwise they get too small*/
+ul.mktree  li { font-size: 12pt; }
+/*ul.mktree  li ul li { font-size: 10pt; }*/
+ul.mktree  li ul li { font-size: 12pt; }
+/*ul.mktree  li ul li ul li { font-size: 8pt; }*/
+ul.mktree  li ul li ul li { font-size: 12pt; }
+/*ul.mktree  li ul li ul li ul li { font-size: 6pt; }*/
+ul.mktree  li ul li ul li ul li { font-size: 12pt; }
+

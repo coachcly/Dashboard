@@ -1,0 +1,209 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+.headerbar1 {
+	background-color: #4E83C5;
+	height: 15px;
+	vertical-align: bottom;
+}
+
+.headerbar2 {
+	background-color: #FFFFFF;
+	height: 30px;
+}
+
+.headerbar3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #666666;
+	height: 25px;
+	vertical-align: top;
+}
+
+.gradient {
+	background-color: #FFFFFF;
+	background-image: url(/websmart/tool/images/back.gif);
+	text-align: left;
+}
+.logo {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 200px;
+
+}
+
+.leftbar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4E83C5;
+	background-color: #CCCCCC;
+	height: 100%;
+	width: 180px;
+	padding: 10px;
+	text-align: left;
+	vertical-align: top;
+	background-position: left top;
+
+}
+
+A.link1:link    {color:#4E83C5; text-decoration:none;}
+A.link1:visited {color:#4E83C5; text-decoration:none;}
+A.link1:active  {color:#666666; text-decoration:none;}
+A.link1:hover   {color:#666666; text-decoration:none;}
+
+.rightframe {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+	vertical-align: top;
+	background-position: left top;
+
+}
+
+.charttop {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #4E83C5;
+	text-align: left;
+	height: 25px;
+
+}
+
+A.link2:link    {color:#9CC5F3; text-decoration:unerline;}
+A.link2:visited {color:#9CC5F3; text-decoration:underline;}
+A.link2:active  {color:#FFFFFF; text-decoration:underline;}
+A.link2:hover   {color:#FFFFFF; text-decoration:underline;}
+
+.chartbar1, altcol1  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	background-color: #EFEFEF;
+	padding: 3px;
+	height: 18px;
+
+}
+ 
+ 
+ .chbar1  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	padding: 3px;
+	height: 18px;
+
+}
+ 
+ 
+.chartbar2, .chbar2, altcol2  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	background-color: #EBEEF5;
+	padding: 3px;
+	height: 18px;
+
+}
+
+.chartbar3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	background-color: #EFEFEF;
+	padding: 3px;
+	height: 18px;
+}
+
+.chartbar4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	background-color: #E3E3E3;
+	padding: 3px;
+	height: 18px;
+
+}
+
+
+.inactive {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #AA3933;
+	text-align: center;
+	padding: 3px;
+}
+.errortable,  .mainerror  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #666666;
+	padding: 3px;
+	height: 18px;
+}
+
+.error {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #AA3935;
+}
+
+.error2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.error3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+}
+
+
+.errortd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.smtext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+
+.cpyrght {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	background-position: left bottom; 
+}

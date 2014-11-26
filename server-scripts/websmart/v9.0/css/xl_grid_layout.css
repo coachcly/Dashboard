@@ -1,0 +1,16 @@
+body { font-size: 62.5%; }
+label {display:block;} 
+input.text { margin-bottom:12px; padding: .4em; }
+input.text[disabled] { color: blue; border: 0; }
+input#findbutton { clear: both; }
+
+fieldset { padding:0; border:0; margin-top:25px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+h3 { font-size: 1.1em; margin: 1em 0; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.chg, .del, .dsp {display: block; float: left; margin-left:3px; }
+.searchdiv { margin-bottom: 5px; }
+#message { padding: 5px; border-radius: 3px; border: none;}
+#messageline { height: 15px; width: 100%; margin: 0 10px 15px;}
+div.ui-pg-div { text-align: center; }

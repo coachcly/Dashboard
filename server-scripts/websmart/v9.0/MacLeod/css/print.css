@@ -1,0 +1,17 @@
+body, h1-h6, table, tr, td {font-family: Verdana, Arial, Sans-serif;}  
+body, table, tr, td { font-size:10px;}
+table.clean { border-collapse: collapse; }
+ .clean td.htext, .clean td.text { border: 1px solid #EAE9E1; }
+.htext {color: black; font-weight: bold; text-align: center;}
+tr.altcol1 {background-color: #ffffff; color: black;}
+tr.altcol2 {background-color: #f8f8f8; color: black;}
+.clean td.text { font-weight: normal; }
+.clean td.alpha {text-align: left;}
+.clean td.numeric, .clean td.right   { text-align: right;}
+.subhdg { margin-top: 15px; border-top: 2px outset #ECE9D8; font-weight:bold;} 
+.subtext { text-align: right; padding-bottom: 5px;} 
+.searchbox {font-size: 10px; color:#666666; }
+.logo { float: left; display: none; } 
+.title{ padding-top:30px; padding-bottom: 1px; font-size:26px; color:#663333;}
+.breakhead { margin-top: 5px; color: black; font-size: 12px; font-weight: bold; }
+td.actions{ white-space: nowrap; }
